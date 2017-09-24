@@ -1,4 +1,4 @@
-## Assignment here is to write two functions  "makeCacheMatrix" and "cacheSolve" which can cache the inverse of a matrix.
+## Assignment here is to write two functions  "makeCacheMatrix" and "cacheSolve" which can cache the inverse of a matrix
 
 
 ## This function creates a matrix that can cache its inverse.
@@ -39,3 +39,13 @@ cacheSolve <- function(x, ...)
     inver
   
 }
+
+##Checking the program
+##m <- matrix(rnorm(16),4,4)
+##m1 <- makeCacheMatrix(m)
+##cacheSolve(m1)
+##getting cached result from Makecachemartix
+##[1,]  3.059502  3.111808  7.646264 -3.922744
+##[2,]  2.969226  1.585716  6.121172 -3.195205
+##[3,] -4.490204 -3.998541 -9.434814  5.538661
+##[4,]  5.205640  3.663658  9.906760 -5.112904
